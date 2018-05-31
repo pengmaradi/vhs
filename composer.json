@@ -1,5 +1,5 @@
 {
-    "name": "fluidtypo3/vhs",
+    "name": "pengmaradi/vhs",
     "description": "The vhs package from FluidTYPO3",
     "type": "typo3-cms-extension",
     "non-feature-branches": ["development"],
@@ -27,26 +27,13 @@
             "FluidTYPO3\\Vhs\\": "Classes/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "FluidTYPO3\\Vhs\\Tests\\": "Tests/"
-        }
-    },
     "require": {
-        "php": ">=7.0.0",
-        "typo3/cms-core": "^8.7 || ^9 || dev-master",
-        "typo3/cms-extbase": "^8.7 || ^9 || dev-master",
-        "typo3/cms-fluid": "^8.7 || ^9 || dev-master",
-        "typo3/cms-frontend": "^8.7 || ^9 || dev-master",
-        "typo3/cms-backend": "^8.7 || ^9 || dev-master"
+        "typo3/cms-core": ">=7"
     },
     "replace": {
         "vhs": "self.version",
         "typo3-ter/vhs": "self.version",
         "typo3/cms-version": "*"
-    },
-    "require-dev": {
-        "fluidtypo3/development": "^4.0"
     },
     "suggest": {
         "ext-tidy": "Allows to make use of the tidy ViewHelper"
